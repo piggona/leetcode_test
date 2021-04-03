@@ -52,3 +52,4 @@ Each puzzles[i] doesn't contain repeated characters.
 题目主要考察的有两点：
 1. 表示穷举容量确定且与顺序无关的元素组合：bitmap
 2. 如何**穷举一个bitmap所表示的元素集的所有<font color="red">子集</font>**：(n-1) & bitmap
+> 前提是一个字符集存储在bitmap上，然后最初设置n=bitmap，这样(n-1)&bitmap就能得到元素集的所有子集
